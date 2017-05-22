@@ -2,3 +2,6 @@
 
 ## max
 max($arr) 返回数据中值最大的那一个
+
+## in_array
+in_array($find,$array)
