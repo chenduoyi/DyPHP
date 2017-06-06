@@ -14,3 +14,6 @@ ord — 返回字符的 ASCII 码值
 int ord ( string $string )
 返回字符串 string 第一个字符的 ASCII 码值。
 该函数是 chr() 的互补函数。
+
+## chr
+将ASCII码转换回字符串
