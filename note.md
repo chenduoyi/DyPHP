@@ -17,3 +17,7 @@ int ord ( string $string )
 
 ## chr
 将ASCII码转换回字符串
+
+## No input file specified.
+Nginx报 No input file specified. 的问题
+去掉目录中的.user.ini，访问正常！
