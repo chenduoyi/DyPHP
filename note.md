@@ -21,3 +21,11 @@ int ord ( string $string )
 ## No input file specified.
 Nginx报 No input file specified. 的问题
 去掉目录中的.user.ini，访问正常！
+
+## 判断是否是在微信中访问
+$user_agent = $_SERVER['HTTP_USER_AGENT'];
+if (strpos($user_agent, 'MicroMessenger') === false){
+    header("Content-type: text/html; charset=utf-8");
+    echo '请在微信中打开';
+    die();
+}
