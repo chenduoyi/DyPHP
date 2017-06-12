@@ -13,3 +13,9 @@ strpos($string, $find); //判断字符串中是否包含某值
 
 ## trim
 trim($string, $sth); //$sth要删除的放后面
+
+## header
+```
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+header("content-type:text/html;charset=utf-8");
+```
