@@ -489,3 +489,5 @@ print_r($redis->smembers('test'));  //结果:Array ( [0] => 111 [1] => 222 )
   
 31, hash
 $redis->Hset('hash_key','key','value');
+$redis->Hget('hash_key','key');
+$redis->Hdel('hash_key','key');
