@@ -487,4 +487,5 @@ $redis->sadd("test","222");
 print_r($redis->smembers('test'));  //结果:Array ( [0] => 111 [1] => 222 )  
 ```
   
-php-redis当中，有很多不同名字，但是功能一样的函数，例如：lrem和lremove，这里就不例举
+31, hash
+$redis->Hset('hash_key','key','value');
