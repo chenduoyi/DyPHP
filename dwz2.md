@@ -1,4 +1,5 @@
 列表页
+```
 <div class="panelBar">
 		<ul class="toolBar">
 			<li><a class="add" href="__URL__/add_category" target="dialog" mask="true" width="600" height="500"><span>新增</span></a></li>
@@ -6,7 +7,7 @@
 			<li><a class="edit" href="__URL__/add_category/id/{sid_user}" target="dialog" mask="true" warn="请选择编号" width="600" height="500"><span>编辑</span></a></li>
 		</ul>
 	</div>
-
+```
 弹窗页
 <form method="post" action="__URL__/add_category/navTabId/Product/asd/cat_list?callbackType=closeCurrent" class="pageForm required-validate" onsubmit="return validateCallback(this, dialogAjaxDone)">
 
