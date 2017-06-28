@@ -19,3 +19,9 @@ trim($string, $sth); //$sth要删除的放后面
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 header("content-type:text/html;charset=utf-8");
 ```
+
+## array_unique
+```
+array_unique($arr);
+
+```
