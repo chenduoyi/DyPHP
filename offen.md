@@ -22,6 +22,6 @@ header("content-type:text/html;charset=utf-8");
 
 ## array_unique
 ```
-array_unique($arr);
+$new_arr = array_unique($arr); //返回一个新的去重之后的数组
 
 ```
