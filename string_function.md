@@ -13,3 +13,7 @@ $pos 要用 === false 表示不包含
 ##substr 字符串截取
 $str = '15888888888';
 $new = substr($str,0,3) . '****' . substr($str,-4);
+
+##substr 字符串截取
+$str = '15888888888';
+$new = substr($str,0,3) . '****' . substr($str,-4);
