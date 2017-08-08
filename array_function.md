@@ -14,3 +14,5 @@ implode(',',$arr) 用',',将数组连接成字符串
 
 ## max
 max($arr); 获取数组最大的值
+
+## array_chunk
